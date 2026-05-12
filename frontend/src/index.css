@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #020617;
+  --surface: #0f172a;
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  @apply bg-white dark:bg-[#020617] text-slate-900 dark:text-slate-100 antialiased transition-colors duration-300;
+}
+
+
+.glass-card {
+  @apply bg-white/60 dark:bg-slate-900/40 backdrop-blur-xl border border-slate-200 dark:border-white/5 rounded-[2rem] shadow-xl shadow-slate-200/50 dark:shadow-2xl;
+}
+
+.careergrid-card {
+  @apply bg-white dark:bg-[#0f172a] border border-slate-200 dark:border-white/5 rounded-[2.5rem] p-8 transition-all hover:border-indigo-500/30 hover:shadow-indigo-500/5 shadow-xl shadow-slate-200/50 dark:shadow-none;
+}
+
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-violet-400 to-fuchsia-400;
+}
+
+.bg-gradient-premium {
+  @apply bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-600;
+}
+
+
+.btn-premium {
+  @apply px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold transition-all active:scale-95 shadow-lg shadow-indigo-500/20 flex items-center justify-center gap-2;
+}
+
+.btn-ghost {
+  @apply px-8 py-4 bg-transparent border border-slate-300 dark:border-white/10 hover:bg-slate-100 dark:hover:bg-white/5 text-slate-700 dark:text-slate-300 rounded-2xl font-bold transition-all;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

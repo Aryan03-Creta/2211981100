@@ -1,9 +1,9 @@
 # 📌 Project Title:
-Job Listing Portal .
+Job Listing Portal.
 
- ---
- 
-## 👨‍💻 Team Details:
+---
+
+## 👨💻 Team Details:
 Aryan –2211981100.
 
 ---
@@ -37,29 +37,29 @@ A complete backend built using **Node.js, Express.js, and MongoDB** with modular
 * Password hashing (bcrypt)
 * JWT authentication
 * Role-based access (Student / Employer / Admin).
-  
---
+
+---
 
 ### 👤 Profile Management:
 * Student profile
 * Employer company profile
 * Resume upload
 * Profile update APIs.
-  
+
 ---
 
-### 🛡️ Employer Verification (Admin Control);
+### 🛡️ Employer Verification (Admin Control):
 * Admin approval required
 * Unverified employers cannot post jobs
 * Fake employer protection system.
-  
+
 ---
 
 💼 Job Listings:
 * Create / update / delete jobs
 * View public jobs
 * Employer ownership protection
-  
+
 ---
 
 ### 📄 Job Applications:
@@ -67,27 +67,27 @@ A complete backend built using **Node.js, Express.js, and MongoDB** with modular
 * Prevent duplicate applications
 * Track application status
 * Employer can view applicants.
-  
+
 ---
 
 ### 📊 Dashboards:
 * Student dashboard
 * Employer dashboard
 * Job statistics
-  
+
 ---
 
 ### 🔍 Search & Filters:
 * Keyword-based search
 * Location filtering
 * Pagination
-  
+
 ---
 
 ### 🔔 Notifications:
 * Application alerts
 * Notification tracking.
-  
+
 ---
 
 ### 🔐 Security Features:
@@ -95,7 +95,7 @@ A complete backend built using **Node.js, Express.js, and MongoDB** with modular
 * Role-based authorization
 * Input validation
 * Duplicate prevention
-  
+
 ---
 
 ## 📁 Backend Structure
@@ -117,36 +117,45 @@ backend/
 ├── package.json
 └── README.md
 ```
-## 🎨 FRONTEND (User Interface):
 
-Frontend is designed with a modern UI to provide smooth user experience.
 ---
+
+## 🎨 FRONTEND (User Interface):
+Frontend is designed with a modern UI to provide smooth user experience.
+
+---
+
 ### ✨ Features:
- 
-### 👨‍🎓 Student:
+
+### 👨🎓 Student:
 * Dashboard
 * Profile builder
 * Resume upload
 * Job search & apply
 * Application tracking
+
 ---
+
 ### 🏢 Employer:
 * Post jobs
 * Manage listings
 * View applicants
 * Shortlist candidates
+
 ---
+
 ### 🛡️ Admin:
 * Employer verification
 * Block fake users
 * Activity monitoring
+
 ---
 
 ### 🎯 UI Highlights:
 * Dark theme interface
 * Responsive design
 * Clean dashboards
-* 
+
 ---
 
 ## 📁 Frontend Structure:
@@ -160,34 +169,32 @@ frontend/
 │   └── App.js
 └── package.json
 ```
+
 ---
 
 ## ⚙️ Setup Instructions:
----
 
 ### 1️⃣ Clone Repository:
-
-git clone  https://github.com/Aryan03-Creta/Job-Listing-Portal.git
 ```
-cd Job-Listing-Portal.
-
+git clone https://github.com/Aryan03-Creta/Job-Listing-Portal.git
+cd Job-Listing-Portal
 ```
 
 ---
+
 ## 2️⃣ Backend Setup:
 ```
 cd backend
-npm install
+npm ci
 npm run dev
 ```
 
 ---
 
-
 ## 3️⃣ Frontend Setup:
 ```
 cd frontend
-npm install
+npm ci
 npm run dev
 ```
 
@@ -200,6 +207,7 @@ npm run dev
 * Aryan 2211981100 ppt.pptx → Presentation
 * Copyright Office.pdf Diary number.pdf → IPR Submission Proof
 * README.md → Project Documentation
+
 ---
 
 🚀 Unique Feature:
@@ -208,11 +216,14 @@ npm run dev
 * Blocks unverified employers
 * Prevents fake job postings
 * Ensures trusted platform
+
 ---
+
 🔮 Future Improvements
 * Email notifications
 * Real-time updates
 * Admin analytics dashboard
+
 ---
 
 ## 📑 Report & PPT:
@@ -225,8 +236,7 @@ Copyright Registered (Job Listing Portal)
 
 ---
 
-### 👨‍💻 Author:
+### 👨💻 Author:
 Developed by Aryan (2211981100) as part of academic project submission.
 
 ---
-
